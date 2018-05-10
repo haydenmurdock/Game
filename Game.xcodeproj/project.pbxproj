@@ -12,7 +12,6 @@
 		F796C43020A49A3100C788E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F796C42E20A49A3100C788E5 /* Main.storyboard */; };
 		F796C43220A49A3300C788E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F796C43120A49A3300C788E5 /* Assets.xcassets */; };
 		F796C43520A49A3300C788E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F796C43320A49A3300C788E5 /* LaunchScreen.storyboard */; };
-		F796C46120A4E5E000C788E5 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = F796C46020A4E5E000C788E5 /* music.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		F796C43120A49A3300C788E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F796C43420A49A3300C788E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F796C43620A49A3300C788E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F796C46020A4E5E000C788E5 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = music.wav; path = ../../../Downloads/music.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				F796C42A20A49A3100C788E5 /* AppDelegate.swift */,
 				F796C42C20A49A3100C788E5 /* ViewController.swift */,
 				F796C42E20A49A3100C788E5 /* Main.storyboard */,
-				F796C46020A4E5E000C788E5 /* music.wav */,
 				F796C43120A49A3300C788E5 /* Assets.xcassets */,
 				F796C43320A49A3300C788E5 /* LaunchScreen.storyboard */,
 				F796C43620A49A3300C788E5 /* Info.plist */,
@@ -128,7 +125,6 @@
 				F796C43520A49A3300C788E5 /* LaunchScreen.storyboard in Resources */,
 				F796C43220A49A3300C788E5 /* Assets.xcassets in Resources */,
 				F796C43020A49A3100C788E5 /* Main.storyboard in Resources */,
-				F796C46120A4E5E000C788E5 /* music.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
