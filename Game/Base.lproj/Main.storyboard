@@ -127,16 +127,19 @@
                     <connections>
                         <outlet property="PlayersTurnLabel" destination="lLb-rL-KaL" id="BKA-zg-daq"/>
                         <outlet property="resetButtonLabel" destination="X9R-2N-erI" id="xBm-zh-MSN"/>
+                        <segue destination="6wj-pa-5Zd" kind="show" identifier="toOWins" id="8Ig-rj-oS9"/>
+                        <segue destination="iuM-mR-CiE" kind="show" identifier="toXWins" id="57x-US-A2y"/>
+                        <segue destination="Vgu-Er-awg" kind="show" identifier="toTie" id="THB-u8-ohK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Wins View Controller-->
         <scene sceneID="HRq-U9-obo">
             <objects>
-                <viewController id="6wj-pa-5Zd" sceneMemberID="viewController">
+                <viewController id="6wj-pa-5Zd" customClass="oWinsViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LqM-WH-8NS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,10 +151,10 @@
             </objects>
             <point key="canvasLocation" x="945" y="123"/>
         </scene>
-        <!--View Controller-->
+        <!--Tie View Controller-->
         <scene sceneID="Zge-vg-nTu">
             <objects>
-                <viewController id="Vgu-Er-awg" sceneMemberID="viewController">
+                <viewController id="Vgu-Er-awg" customClass="tieViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="84f-r1-0Qt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,12 +164,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jF4-gv-OBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="166" y="811"/>
+            <point key="canvasLocation" x="-300" y="967"/>
         </scene>
-        <!--View Controller-->
+        <!--Wins View Controller-->
         <scene sceneID="XhO-ya-fnM">
             <objects>
-                <viewController id="iuM-mR-CiE" sceneMemberID="viewController">
+                <viewController id="iuM-mR-CiE" customClass="xWinsViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQD-fy-6xf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQY-0i-IDz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="811"/>
+            <point key="canvasLocation" x="1321" y="991"/>
         </scene>
     </scenes>
     <resources>
