@@ -52,6 +52,7 @@ class ViewController: UIViewController {
                     
                     //Cross has won
                     print("cross won")
+                    self.performSegue(withIdentifier: "toXWins", sender: nil)
                 resetButtonLabel.isHidden = false
                     
                 } else {
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
                     print("nought has won")
                     
                 resetButtonLabel.isHidden = false
-                    
+                    self.performSegue(withIdentifier: "toOWins", sender: nil)
                 }
             }
         }

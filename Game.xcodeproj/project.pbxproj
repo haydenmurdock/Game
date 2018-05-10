@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A204D9520A5025300532756 /* oWinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A204D9420A5025300532756 /* oWinsViewController.swift */; };
+		3A204D9720A5025C00532756 /* xWinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A204D9620A5025C00532756 /* xWinsViewController.swift */; };
+		3A204D9920A5026600532756 /* tieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A204D9820A5026600532756 /* tieViewController.swift */; };
 		F796C42B20A49A3100C788E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796C42A20A49A3100C788E5 /* AppDelegate.swift */; };
 		F796C42D20A49A3100C788E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796C42C20A49A3100C788E5 /* ViewController.swift */; };
 		F796C43020A49A3100C788E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F796C42E20A49A3100C788E5 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A204D9420A5025300532756 /* oWinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oWinsViewController.swift; sourceTree = "<group>"; };
+		3A204D9620A5025C00532756 /* xWinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xWinsViewController.swift; sourceTree = "<group>"; };
+		3A204D9820A5026600532756 /* tieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tieViewController.swift; sourceTree = "<group>"; };
 		F796C42720A49A3100C788E5 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F796C42A20A49A3100C788E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F796C42C20A49A3100C788E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A204D9320A5022700532756 /* After Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A204D9420A5025300532756 /* oWinsViewController.swift */,
+				3A204D9620A5025C00532756 /* xWinsViewController.swift */,
+				3A204D9820A5026600532756 /* tieViewController.swift */,
+			);
+			path = "After Views";
+			sourceTree = "<group>";
+		};
 		F796C41E20A49A3100C788E5 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +73,7 @@
 				F796C42A20A49A3100C788E5 /* AppDelegate.swift */,
 				F796C42C20A49A3100C788E5 /* ViewController.swift */,
 				F796C42E20A49A3100C788E5 /* Main.storyboard */,
+				3A204D9320A5022700532756 /* After Views */,
 				F796C43120A49A3300C788E5 /* Assets.xcassets */,
 				F796C43320A49A3300C788E5 /* LaunchScreen.storyboard */,
 				F796C43620A49A3300C788E5 /* Info.plist */,
@@ -135,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A204D9720A5025C00532756 /* xWinsViewController.swift in Sources */,
+				3A204D9520A5025300532756 /* oWinsViewController.swift in Sources */,
+				3A204D9920A5026600532756 /* tieViewController.swift in Sources */,
 				F796C42D20A49A3100C788E5 /* ViewController.swift in Sources */,
 				F796C42B20A49A3100C788E5 /* AppDelegate.swift in Sources */,
 			);
